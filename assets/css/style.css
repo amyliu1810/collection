@@ -12,7 +12,7 @@
 }
 
 body{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-family:"cwTeXYen", sans-serif;
 	font-size:16px;
 	color: #676a81;
 	background: #fff;
@@ -28,19 +28,20 @@ a,a:hover,a:active,a:focus {
 	font-size:16px;
 	padding:0;
 }
-h1,h2,h3,h4,h5,h6 { 
+h1,h3,h4,h5,h6 { 
 	margin: 0;
 	color:#43485c;
     font-size: 16px;
-	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-family:"cwTeXYen", sans-serif;
 	text-transform: capitalize;
 }
+
 p {
 	margin: 0;
 	line-height:1.8;
 	color:#43485c;
 	font-size:14px;
-	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-family:"cwTeXYen", sans-serif;
 }
 img{border:none;max-width:100%; height:auto;}
 ul{
@@ -166,6 +167,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #6a708e;}
 
 .header-text{
 margin-top: 140px;
+font-family: 'cursive',Comic Sans MS;
 }
 
 li::marker {
