@@ -202,7 +202,7 @@ margin-top: 100px;
 /*.single-about-txt*/
 .single-about-txt h3 {
     font-size:18px;
-    color: #3c4258;
+    color: #636a82;
     text-transform: initial;
     line-height: 1.8;
 }
@@ -448,6 +448,28 @@ span.single-timeline-horizontal.spacial-horizontal-line {
 
 .experience-time-responsive{display: none;}
 
+/* 技能 */
+.skill-category {
+    border-radius: 10px;
+    padding: 20px;
+    margin: 80px 0 0px 0;
+}
+
+.skill-item {
+    list-style-type: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #DEDEE2;
+    margin: 0 10px 15px 0;
+    width: min-content;  /* 讓寬度自動調整為文字內容的寬度 */
+    white-space: nowrap; /* 字體不換行 */
+    display: inline-block;  /* 方塊自動換行 */
+}
+
+h2 {
+    padding-bottom: 15px;
+    font-size: 18px;
+}
 
 /* Profiles */
 .profiles {
@@ -608,15 +630,24 @@ span.single-timeline-horizontal.spacial-horizontal-line {
     transform:scale(1);
     top:0;
 }
+/* 中興大學綜合大樓7F */
+.col-12 {
+    padding-right: 15px;
+    padding-left: 15px;
+}
 
 /* Clients */
-.clients {padding-top: 50px;}
+.clients {
+    padding-top: 50px;
+}
 .clients-area {
     display: flex;
     align-items: center;
     height: 250px;
 }
-.clients-area .item {padding: 0 25px;}
+.clients-area .item {
+    padding: 0 25px;
+}
 
 .clients .clients-area .owl-carousel .owl-item img {
     display: block;
@@ -793,3 +824,5 @@ span.single-timeline-horizontal.spacial-horizontal-line {
         bottom:7px;
     }
 }
+
+
