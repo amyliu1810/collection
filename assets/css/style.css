@@ -170,6 +170,10 @@ margin-top: 140px;
 font-family: 'cursive',Comic Sans MS;
 }
 
+.header-text-small{
+    font-family:"cwTeXYen", sans-serif;
+}
+
 li::marker {
     content: none;
 }
