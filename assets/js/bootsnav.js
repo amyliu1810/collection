@@ -564,3 +564,11 @@
     
 }(jQuery));
 
+// 在文檔加載完成後，移除指定的class
+document.addEventListener('DOMContentLoaded', function () {
+    var htmlElement = document.documentElement;
+    var classesToRemove = "js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths fontawesome-i2svg-active fontawesome-i2svg-complete";
+    classesToRemove.split(' ').forEach(function (className) {
+      htmlElement.classList.remove(className);
+    });
+  });
